@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Quicksand;
+ }
+
+ .sign-up-button{
+ 	background: rgba(196,217,49,1);
+ 	color: #0f4ea1;
+ 	border-radius: 57px;
+ 	font-size: 16px;
+ 	width: 138px;
+ 	height: 33px;
+ 	border-style: none;
+    line-height: 19px;
+    font-weight: 700;
+    font-style: normal;
+    box-shadow: none;
+    text-shadow: none;
+ }
+
+ .flex{
+ 	display: flex;
+ }
+
+ .f-center{
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .f-column{
+ 	flex-direction: column;
+ }
+
+ .footer{
+ 	display: grid;
+    grid-template-columns: 34% 33% 33%;
+ 	background: rgba(93,64,87,1);
+ 	height: 5rem;
+ }
+
+ .footer p{
+ 	line-height: 0;
+    font-family: Open Sans;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;
+ }
+
+  .footer a{
+ 	line-height: 0;
+    font-family: Open Sans;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ .privacy-terms{
+ 	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .section-title-white{
+ 	font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Open Sans";
+ }
+
+ .faq-section{
+ 	background: rgba(196,159,159,1);
+ 	background-image: url(https://d9hhrg4mnvzow.cloudfront.net/get.myspendingtracker.com/d8c34e98-background-web_1000000000000000000028.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+ }
+
+.faq-grid{
+	display: grid;
+    grid-template-columns: 50% 50%;
+    width: 63%;
+}
+
+.faq-subsection h4{
+	color: #ebe3aa;
+	font-weight: 700;
+	font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 0;
+}
+
+.faq-subsection p{
+	color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.faq-subsection{
+	margin: 0% 10%;
+}
+
+.user-reviews-section{
+	display: block;
+    background: rgba(126,91,119,1);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 470px;
+    position: relative;
+}
+
+.user-reviews-grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 57%;
+}
+
+.user-review p{
+	text-align: center;
+	color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.white-line{
+	background: #ffffff;
+	height: 3px;
+    width: 48px;
+}
+
+.user-review{
+	 display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-name{
+	font-weight: 700 !important;
+    font-style: normal;
+    font-size: 14px !important;
+}
+
+.stars{
+	 color: rgb(255, 255, 0); 
+	 font-family: Open Sans;
+	 font-size: 18px; 
+	 font-weight: 400; 
+	 font-style: normal;
+}
+
+.img-container{
+	border: 2px solid white;
+	border: 2px solid white;
+    background: none;
+    border-radius: 150px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+	width: 90px;
+    height: 90px;
+}
+@media only screen and (max-width: 1100px) {
+	.faq-grid{
+		
+	    width: 80%;
+	}
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+	.faq-grid{
+		display: grid;
+	    grid-template-columns: 100%;
+	    width: 100%
+	}
+
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.privacy-terms{
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+ 
+}
