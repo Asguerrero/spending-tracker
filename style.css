@@ -125,8 +125,10 @@ body{
     margin-bottom: 0px;
     border-radius: 0px;
     width: 100%;
-    height: 470px;
     position: relative;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+
 }
 
 .user-reviews-grid{
@@ -142,12 +144,15 @@ body{
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .white-line{
 	background: #ffffff;
 	height: 3px;
     width: 48px;
+    margin-bottom: 0.8rem;
 }
 
 .user-review{
@@ -169,6 +174,7 @@ body{
 	 font-size: 18px; 
 	 font-weight: 400; 
 	 font-style: normal;
+     margin-top: 1rem;
 }
 
 .img-container{
@@ -176,27 +182,110 @@ body{
 	border: 2px solid white;
     background: none;
     border-radius: 150px;
-    height: 100px;
-    width: 100px;
+    height: 5.8rem;
+    width: 5.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .img-container img{
-	width: 90px;
-    height: 90px;
+	width: 5rem;
+    height: 5rem;
 }
+
+.section-title-purple {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    color: #5d4056;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.how-works-section{
+    padding-top: 3.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.how-works-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 60%;
+}
+
+.how-works-item{
+    display: grid;
+    grid-template-rows: 50% 15% 15%;
+    justify-items: center;
+    text-align: center;
+}
+
+.how-works-item h4{
+    color: rgb(108, 91, 123);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.how-works-item p{
+    color: rgb(108, 91, 123);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.gray-bar-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+
+}
+
+.gray-bar-item{
+    text-align: center;
+}
+
+.gray-bar{
+    border-top: 4px solid #F2F2F2;
+    border-bottom: 4px solid #F2F2F2;
+}
+
+.check-mark{
+    color: rgb(0, 255, 68);
+    font-size: 16px;
+}
+
+.gray-bar-text{
+    color: rgb(15, 78, 161);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 1100px) {
+
 	.faq-grid{
-		
 	    width: 80%;
 	}
+    .user-reviews-grid{
+        width: 70%;
+    }
+
+    .how-works-grid{
+        width: 80%;
+    }
+
+    .gray-bar-grid{
+        width: 80%;
+    }
+
  
 }
 
 
 @media only screen and (max-width: 600px) {
+
 	.faq-grid{
 		display: grid;
 	    grid-template-columns: 100%;
@@ -206,12 +295,45 @@ body{
 	.footer{
 		display: flex;
 		flex-direction: column;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
 	}
+
+    .footer p{
+        margin: 0.7rem;
+    }
 
 	.privacy-terms{
 		display: flex;
 		flex-wrap: wrap;
-		
+        align-items: center;
+        justify-content: center;
 	}
+
+    .privacy-terms a{
+        margin: 1rem 1rem;
+    }
+
+    .user-reviews-grid{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+     .how-works-grid{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+     .gray-bar-grid{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .gray-bar-item{
+        margin-top: 0.6rem;
+    }
  
 }
