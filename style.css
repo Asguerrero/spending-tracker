@@ -335,6 +335,11 @@ body{
     border: 0;
 }
 
+.privacy-page-div{
+    font-family: Arial, sans-serif;
+    width: 50%;
+}
+
 @media only screen and (max-width: 1100px) {
 
 	.faq-grid{
@@ -354,6 +359,10 @@ body{
 
     .main-section-grid{
         width: 80%;
+    }
+
+    .privacy-page-div{
+         width: 70%;
     }
  
 }
