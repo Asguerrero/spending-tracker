@@ -1,0 +1,9 @@
+To do:
+- Make main section responsive
+- Adjust footer
+- Add arrow link 
+- Adjust title of main section so it matches original version
+- Set background with local files
+- Privacy and terms pages
+- Adjust FAQ item when screen is collapsed 
+- Add more meta tags

@@ -4,7 +4,7 @@ body{
     font-family: Quicksand;
  }
 
- .sign-up-button{
+.sign-up-button{
  	background: rgba(196,217,49,1);
  	color: #0f4ea1;
  	border-radius: 57px;
@@ -19,27 +19,27 @@ body{
     text-shadow: none;
  }
 
- .flex{
+.flex{
  	display: flex;
  }
 
- .f-center{
+.f-center{
  	justify-content: center;
  	align-items: center;
  }
 
- .f-column{
+.f-column{
  	flex-direction: column;
  }
 
- .footer{
+.footer{
  	display: grid;
     grid-template-columns: 34% 33% 33%;
  	background: rgba(93,64,87,1);
  	height: 5rem;
  }
 
- .footer p{
+.footer p{
  	line-height: 0;
     font-family: Open Sans;
     font-size: 16px;
@@ -48,7 +48,7 @@ body{
     font-style: normal;
  }
 
-  .footer a{
+.footer a{
  	line-height: 0;
     font-family: Open Sans;
     font-size: 16px;
@@ -57,13 +57,13 @@ body{
     font-style: normal;
  }
 
- .privacy-terms{
+.privacy-terms{
  	display: flex;
     justify-content: space-evenly;
     align-items: center;
  }
 
- .section-title-white{
+.section-title-white{
  	font-size: 28px;
     font-weight: 700;
     font-style: normal;
@@ -72,7 +72,7 @@ body{
     font-family: "Open Sans";
  }
 
- .faq-section{
+.faq-section{
  	background: rgba(196,159,159,1);
  	background-image: url(https://d9hhrg4mnvzow.cloudfront.net/get.myspendingtracker.com/d8c34e98-background-web_1000000000000000000028.png);
     background-attachment: fixed;
@@ -156,7 +156,7 @@ body{
 }
 
 .user-review{
-	 display: flex;
+	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -169,12 +169,12 @@ body{
 }
 
 .stars{
-	 color: rgb(255, 255, 0); 
-	 font-family: Open Sans;
-	 font-size: 18px; 
-	 font-weight: 400; 
-	 font-style: normal;
-     margin-top: 1rem;
+	color: rgb(255, 255, 0); 
+	font-family: Open Sans;
+	font-size: 18px; 
+	font-weight: 400; 
+	font-style: normal;
+    margin-top: 1rem;
 }
 
 .img-container{
@@ -263,6 +263,78 @@ body{
     font-weight: 700;
 }
 
+
+
+.main-section{
+
+    display: block;
+    background: rgba(204,173,173,1);
+    background-image: url(https://d9hhrg4mnvzow.cloudfront.net/get.myspendingtracker.com/d8c34e98-background-web_1000000000000000000028.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    position: relative;
+   
+}
+
+.main-section-grid{
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    width: 60%;
+
+}
+
+.main-section-grid h1{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.main-section-grid p{
+    text-align: right;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.logo{
+    margin-top: 3rem;
+    width: 189px;
+    height: 59px;
+}
+
+.phone-container{
+    background-image: url(https://d9hhrg4mnvzow.cloudfront.net/get.myspendingtracker.com/10t54uc-premia-iphone-front_10000000b50f500g000028.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 545px;
+    width: 401px;
+    margin-top: 3rem;
+}
+
+.video-container{
+    position: absolute;
+    top: 13%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 @media only screen and (max-width: 1100px) {
 
 	.faq-grid{
@@ -280,6 +352,9 @@ body{
         width: 80%;
     }
 
+    .main-section-grid{
+        width: 80%;
+    }
  
 }
 
