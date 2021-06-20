@@ -328,8 +328,6 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    /*height: 500px;
-    width: 336px;*/
     height: 496px;
     width: 365px;
     margin-top: 3rem;
@@ -364,6 +362,10 @@ body{
 
 .mobile-appear{
     display: none;
+}
+
+.mobile-appear-flex{
+        display: none;
 }
 
 
@@ -475,6 +477,7 @@ body{
 
     .iframe-height{
         height: 90%;
+       
     }
 
     .mobile-dissapear{
@@ -487,5 +490,9 @@ body{
 
     .mobile-appear{
         display: block;
+    }
+
+    .mobile-appear-flex{
+        display: flex;
     }
 }
